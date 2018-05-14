@@ -1,0 +1,29 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package factoryt14;
+
+/**
+ *
+ * @author Oswaldo
+ */
+public class Samsung extends Mobile{
+	private int ramSize;
+	private String processor;
+	public String name = Mobile.SAMSUNG;
+	public Samsung(int ramSize){
+		this.ramSize = ramSize;
+	}
+	
+	public Samsung(String processor){
+		this.processor = processor;
+		this.ramSize =2;
+                System.out.println("SAMSUNG");
+                System.out.println("Procesador: " + processor);
+                System.out.println("RAM: " + ramSize);
+                System.out.println("--------------------");
+        }
+    
+}
